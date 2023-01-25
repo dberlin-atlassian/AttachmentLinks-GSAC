@@ -2,14 +2,13 @@
 // @name        AttachmentLinks-GSAC
 // @namespace   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/
 // @grant       none
-// @version     1.0
+// @version     1.01
 // @match       https://getsupport.atlassian.com/*
 // @downloadURL https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
 // @updateURL   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
 // @author      DBerlin
 // @description AttachmentLinks returns normal link functionality to GSAC attachments, instead of using preview mode by default, which overrides things like cmd-click > new tab.
 // ToDo         Include the files from trac at the top.  Right now, this only works on links in comments. 
-// ToDo         Only run script on GSAC domain! otherwise inefficient!
 // ==/UserScript==
 
 
