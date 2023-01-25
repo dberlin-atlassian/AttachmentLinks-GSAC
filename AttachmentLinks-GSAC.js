@@ -3,6 +3,7 @@
 // @namespace   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/
 // @grant       none
 // @version     1.01
+// @run-at document-end
 // @match       https://getsupport.atlassian.com/*
 // @downloadURL https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
 // @updateURL   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
