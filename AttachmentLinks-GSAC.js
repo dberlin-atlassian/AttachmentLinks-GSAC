@@ -3,12 +3,14 @@
 // @namespace   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/
 // @grant       none
 // @version     1.0
+// @match       https://getsupport.atlassian.com/*
+// @downloadURL https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
+// @updateURL   https://github.com/dberlin-atlassian/AttachmentLinks-GSAC/blob/main/AttachmentLinks-GSAC.js
 // @author      DBerlin
 // @description AttachmentLinks returns normal link functionality to GSAC attachments, instead of using preview mode by default, which overrides things like cmd-click > new tab.
-// ==/UserScript==
-
 // ToDo         Include the files from trac at the top.  Right now, this only works on links in comments. 
 // ToDo         Only run script on GSAC domain! otherwise inefficient!
+// ==/UserScript==
 
 
 //the attachment-macro class determines the click handler as well as the css.
@@ -20,3 +22,4 @@ var el = document.getElementsByClassName("attachment-macro");
 for (var i=0; i < el.length; i++){
   el[i].setAttribute("class", "external_link");
 }
+
